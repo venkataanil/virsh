@@ -1,0 +1,18 @@
+<network>
+  <name>management</name>
+  <uuid>7142ffa8-aca2-411d-b88e-53af83800d69</uuid>
+  <forward mode='nat'>
+    <nat>
+      <port start='1024' end='65535'/>
+    </nat>
+  </forward>
+  <bridge name='management' stp='on' delay='0'/>
+  <mac address='52:54:00:d9:49:13'/>
+  <ip address='172.16.0.1' netmask='255.255.255.0'>
+    <dhcp>
+      <range start='172.16.0.2' end='172.16.0.100'/>
+      <host mac='52:54:00:50:76:3c' name='undercloud-0' ip='172.16.0.32'/>
+    </dhcp>
+  </ip>
+</network>
+

@@ -1,0 +1,9 @@
+<network connections='3'>
+  <name>data</name>
+  <uuid>66ac1ae8-176f-4563-9ba4-42002f8ea82d</uuid>
+  <bridge name='data' stp='on' delay='0'/>
+  <mac address='52:54:00:e4:e5:11'/>
+  <ip address='192.168.24.254' netmask='255.255.255.0'>
+  </ip>
+</network>
+
